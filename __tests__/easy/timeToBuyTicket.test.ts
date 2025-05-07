@@ -1,11 +1,11 @@
 import { timeRequiredToBuy } from "../../challenges/easy/timeToBuyTicket";
 
 describe('timeRequiredToBuy', () => {
-  it('handles example 1', () => {
+  it('handles example one', () => {
     expect(timeRequiredToBuy([2, 3, 2], 2)).toBe(6);
   });
 
-  it('handles example 2', () => {
+  it('handles example tow', () => {
     expect(timeRequiredToBuy([5, 1, 1, 1], 0)).toBe(8);
   });
 
